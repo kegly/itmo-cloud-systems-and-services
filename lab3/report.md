@@ -29,4 +29,4 @@
 #### 5. Тестирование доступности
 Приложение доступно по http://<minikube_ip>:<external_port>
 
-![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab3/images/Screenshot%20from%202024-10-15%2004-50-54.png)
+![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab3/images/Screenshot%20from%202024-10-15%2005-01-27.png)
