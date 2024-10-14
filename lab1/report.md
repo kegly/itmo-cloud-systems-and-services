@@ -29,6 +29,7 @@
 ![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab1/images/Screenshot%20from%202024-10-14%2021-22-11.png)
 
 И docker-compose.yml 
+
 ![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab1/images/Screenshot%20from%202024-10-14%2021-49-32.png)
 
 
@@ -44,8 +45,30 @@
 ![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab1/images/Screenshot%20from%202024-10-14%2023-13-04.png)
 
 ###### 5.  HTTPS
-![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab1/images/Screenshot%20from%202024-10-14%2023-13-17.png)
+
 
 сертификаты получены с помощью Let's Encrypt
 по статье: 
+
 https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-20-04
+
+Перенаправление с HTTP на HTTPS:
+
+![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab1/images/Screenshot%20from%202024-10-14%2023-13-17.png)
+
+
+###### 6.  Тестирование
+
+
+Приложение работает на обоих доменах
+
+![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab1/images/Screenshot%20from%202024-10-14%2023-19-40.png)
+
+![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab1/images/Screenshot%20from%202024-10-14%2023-19-52.png)
+
+Alias также работает для обоих доменов :
+
+![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab1/images/Screenshot%20from%202024-10-14%2023-23-33.png)
+
+
+
