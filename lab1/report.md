@@ -21,5 +21,11 @@
 
 ###### 3.  Контейнеризация приложения
 В качестве приложения выбрано небольшое приложение с гайда для экономии времени.
+
 ![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab1/images/Screenshot%20from%202024-10-14%2021-15-21.png)
 
+Написан стандартный Dockerfile 
+
+![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab1/images/Screenshot%20from%202024-10-14%2021-22-11.png)
+
+###### 4.  
