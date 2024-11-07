@@ -35,4 +35,11 @@ kubectl get secret --namespace default grafana -o jsonpath="{.data.admin-passwor
 
 #### 4. Добавление графиков в Dashboard
 
+были созданы два графика на панели, с помощью queries 
+1. Потребление приложением памяти - container_memory_usage_bytes
+2. Потребление приложением процессорного времени - container_cpu_usage_seconds_total
+
+
+![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab5/images/Screenshot%20from%202024-11-07%2019-21-19.png)
+
 ![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab5/images/Screenshot%20from%202024-11-07%2019-19-04.png)
