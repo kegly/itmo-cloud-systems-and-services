@@ -21,8 +21,11 @@
 
 ![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab3*/images/1.png)
 
+values.yaml :
 
 ![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab3*/images/2.png)
+
+service.yaml :
 
 #### 3. Изменение приложения
 
