@@ -39,4 +39,5 @@ service.yaml :
 ![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab3*/images/4.png)
 
 Задеплоенный сервис в Lens :
+
 ![image](https://github.com/user-attachments/assets/3690f73d-96ed-478f-8ab0-1f32cbd60732)
