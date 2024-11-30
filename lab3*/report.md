@@ -27,6 +27,8 @@ values.yaml :
 
 service.yaml :
 
+![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab3*/images/5.png)
+
 #### 3. Изменение приложения
 
 ![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab3*/images/3.png)
