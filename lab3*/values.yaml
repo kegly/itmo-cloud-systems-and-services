@@ -1,0 +1,13 @@
+replicaCount: 1
+
+image:
+  repository: my-flask-app
+  pullPolicy: Never
+  tag: "1.1"
+
+service:
+  type: NodePort
+  port: 80
+  nodePort: 30080  
+
+resources: {}
