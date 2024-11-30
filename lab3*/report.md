@@ -19,11 +19,18 @@
 
 #### 2. Создание helm чарта  и редактирование 
 
+![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab3*/images/1.png)
 
-#### 3. Деплой чарта
 
-#### 4. Изменение приложения
+![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab3*/images/2.png)
 
-#### 5. Обновление приложения
+#### 3. Изменение приложения
+
+![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab3*/images/3.png)
+
+#### 4. Обновление приложения
+
+
+![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab3*/images/4.png)
 
 
