@@ -21,12 +21,11 @@
 
 ![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab3*/images/1.png)
 
-values.yaml :  В файле было создано описание Service типа NodePort
+values.yaml :  В файле было создано описание Service типа NodePort и поля image.repository и image.tag задаюзие название репозитория и тег образа контейнера,
 
 ![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab3*/images/2.png)
 
 service.yaml :
-
 
 ![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab3*/images/5.png)
 
