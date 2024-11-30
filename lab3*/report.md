@@ -25,7 +25,7 @@ values.yaml :  В файле было создано описание Service т
 
 ![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab3*/images/2.png)
 
-service.yaml :
+service.yaml : В файле service подставляются пеерменные из values.yaml
 
 ![image](https://github.com/kegly/itmo-cloud-systems-and-services/blob/main/lab3*/images/5.png)
 
