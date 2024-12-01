@@ -132,10 +132,10 @@ deploy_application:
 
 ---
 
-## ** Тестирование плохого CI/CD:**
+## **Тестирование плохого CI/CD:**
 ![image](https://github.com/user-attachments/assets/49799859-6ca9-444c-988f-bbdcacc1b74c)
 
-## ** Тестирование хорошего CI/CD:**
+## **Тестирование хорошего CI/CD:**
 ![image](https://github.com/user-attachments/assets/7d427c79-26b0-413f-a954-65f10cd85b98)
 
 ---
