@@ -2,8 +2,10 @@
 
 ## **Описание**
 
-Для выполнения лабораторной работы использовался **GitLab** CI/CD.  
-В рамках работы разработаны два пайплайна:  
+Для выполнения лабораторной работы использовался **GitLab** CI/CD.
+![image](https://github.com/user-attachments/assets/18824875-5c5c-4db6-ad39-0b926f719c82)
+
+В рамках работы разработаны два пайплайна для простого проекта на Python:  
 
 1. **"Плохой" файл CI/CD** — содержит пять распространенных ошибок ("bad practices") в настройке CI/CD.  
 2. **"Хороший" файл CI/CD** — исправления ошибок, направленные на повышение надежности, безопасности и читаемости пайплайна.  
@@ -49,8 +51,34 @@ cleanup:
   script:
     - rm -rf /builds || true
 
-cleanup:
+---
+
+## **"Хороший" файл CI/CD**
+```yaml
+stages:
+  - install
+  - test
+  - deploy
+
+install_dependencies:
+  stage: install
+  image: python:3.8
+  script:
+    - pip install --upgrade pip 
+    - pip install -r requirements.txt  
+
+run_tests:
+  stage: test
+  image: python:3.8
+  script:
+    - pip install pytest 
+    - pytest my_simple_project/test_app.py 
+  allow_failure: false 
+
+deploy_application:
   stage: deploy
   script:
-    - rm -rf /builds || true  # Рекурсивное удаление, которое может уничтожить всё в CI/CD runner
+    - echo "Deploying application..."
+  only:
+    - main 
 
