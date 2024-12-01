@@ -50,7 +50,7 @@ cleanup:
   stage: deploy
   script:
     - rm -rf /builds || true
-
+---
 ---
 
 ## **"Хороший" файл CI/CD**
