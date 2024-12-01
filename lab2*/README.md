@@ -71,6 +71,7 @@ services:
       - 127.0.0.1:8000:8000
     networks:
       - backend_network
+      - db_network
     depends_on:
       - db
     healthcheck:
