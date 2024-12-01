@@ -50,8 +50,9 @@ cleanup:
   stage: deploy
   script:
     - rm -rf /builds || true
+```
 
----
+
 
 Ошибки "плохого" файла и их исправления
 1. Установка системных пакетов в CI/CD
